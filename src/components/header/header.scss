@@ -1,0 +1,74 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  
+  border-radius: 1px;
+  border: 1px solid grey;
+  background-color: rgb(44, 43, 43);
+  
+
+  .logo-container {
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    padding: 25px;
+    &:hover{
+        opacity: 0.4;
+        
+      
+    }
+
+    
+  }
+
+  
+
+  .options {
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+
+  
+  
+
+  
+
+    .option1, .option2, .option3, .option4, .option5{
+        &:hover{
+            opacity:0.7;
+            border: 1px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.2s ease-in;
+            transform: scale3d(1,1,1);
+            
+        }
+      padding: 10px 15px;
+      outline: none;
+      color: white;
+    }
+  }
+}
+
+    
+  
+
+  
+  
+
+
+ 
+
+  
+  
+
