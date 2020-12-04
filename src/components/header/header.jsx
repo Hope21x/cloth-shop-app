@@ -24,7 +24,7 @@ import CartDropdown from '../cart-dropdown/cart-dropdown';
             <Link className='option1' to='/shop'>
                 SHOP
             </Link>
-            <Link className='option2' to=''>
+            <Link className='option2' to='null'>
                 CONTACT US
             </Link>
             {
